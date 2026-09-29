@@ -1,0 +1,9 @@
+sku,packs,ordered_units,stock,demand,shortage_units,leftover_units,purchase_cents,shortage_penalty_cents
+COFFEE,6,72,18,96,6,0,36000,6600
+TEA,3,60,25,84,0,1,15000,0
+FILTERS,2,100,40,175,35,0,6400,6300
+MUGS,2,12,8,42,22,0,8400,33000
+BOTTLES,5,50,12,65,3,0,37500,5400
+SPOONS,2,48,30,90,12,0,5600,3600
+SUGAR,3,120,20,140,0,0,10800,0
+KETTLES,0,0,3,19,16,0,0,88000

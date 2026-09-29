@@ -1,0 +1,7 @@
+{
+  "budget_cents": 10000,
+  "products": [
+    {"sku":"A", "stock":0, "demand":1, "pack_size":1, "pack_cost_cents":6000, "max_packs":1, "shortage_penalty_cents":10000},
+    {"sku":"B", "stock":0, "demand":2, "pack_size":1, "pack_cost_cents":5000, "max_packs":2, "shortage_penalty_cents":8000}
+  ]
+}

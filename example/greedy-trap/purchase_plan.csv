@@ -1,0 +1,3 @@
+sku,packs,ordered_units,stock,demand,shortage_units,leftover_units,purchase_cents,shortage_penalty_cents
+A,0,0,0,1,1,0,0,10000
+B,2,2,0,2,0,0,10000,0

@@ -1,0 +1,13 @@
+{
+  "budget_cents": 120000,
+  "products": [
+    {"sku":"COFFEE", "stock":18, "demand":96, "pack_size":12, "pack_cost_cents":6000, "max_packs":8, "shortage_penalty_cents":1100},
+    {"sku":"TEA", "stock":25, "demand":84, "pack_size":20, "pack_cost_cents":5000, "max_packs":5, "shortage_penalty_cents":650},
+    {"sku":"FILTERS", "stock":40, "demand":175, "pack_size":50, "pack_cost_cents":3200, "max_packs":4, "shortage_penalty_cents":180},
+    {"sku":"MUGS", "stock":8, "demand":42, "pack_size":6, "pack_cost_cents":4200, "max_packs":6, "shortage_penalty_cents":1500},
+    {"sku":"BOTTLES", "stock":12, "demand":65, "pack_size":10, "pack_cost_cents":7500, "max_packs":6, "shortage_penalty_cents":1800},
+    {"sku":"SPOONS", "stock":30, "demand":90, "pack_size":24, "pack_cost_cents":2800, "max_packs":4, "shortage_penalty_cents":300},
+    {"sku":"SUGAR", "stock":20, "demand":140, "pack_size":40, "pack_cost_cents":3600, "max_packs":4, "shortage_penalty_cents":250},
+    {"sku":"KETTLES", "stock":3, "demand":19, "pack_size":4, "pack_cost_cents":12000, "max_packs":4, "shortage_penalty_cents":5500}
+  ]
+}

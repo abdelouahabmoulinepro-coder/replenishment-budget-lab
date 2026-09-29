@@ -1,0 +1,400 @@
+{
+  "input_sha256": "abe3ac45829f620758f669f72162117890e41d9aaf6842651121097a98098147",
+  "budget_cents": 120000,
+  "plans": {
+    "no_purchase": {
+      "purchase_cents": 0,
+      "shortage_units": 555,
+      "shortage_penalty_cents": 430850,
+      "fill_rate": 0.21940928270042195,
+      "products": [
+        {
+          "sku": "COFFEE",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 18,
+          "demand": 96,
+          "shortage_units": 78,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 85800
+        },
+        {
+          "sku": "TEA",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 25,
+          "demand": 84,
+          "shortage_units": 59,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 38350
+        },
+        {
+          "sku": "FILTERS",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 40,
+          "demand": 175,
+          "shortage_units": 135,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 24300
+        },
+        {
+          "sku": "MUGS",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 8,
+          "demand": 42,
+          "shortage_units": 34,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 51000
+        },
+        {
+          "sku": "BOTTLES",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 12,
+          "demand": 65,
+          "shortage_units": 53,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 95400
+        },
+        {
+          "sku": "SPOONS",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 30,
+          "demand": 90,
+          "shortage_units": 60,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 18000
+        },
+        {
+          "sku": "SUGAR",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 20,
+          "demand": 140,
+          "shortage_units": 120,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 30000
+        },
+        {
+          "sku": "KETTLES",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 3,
+          "demand": 19,
+          "shortage_units": 16,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 88000
+        }
+      ]
+    },
+    "greedy": {
+      "purchase_cents": 119700,
+      "shortage_units": 94,
+      "shortage_penalty_cents": 142900,
+      "fill_rate": 0.8677918424753868,
+      "products": [
+        {
+          "sku": "COFFEE",
+          "packs": 6,
+          "ordered_units": 72,
+          "stock": 18,
+          "demand": 96,
+          "shortage_units": 6,
+          "leftover_units": 0,
+          "purchase_cents": 36000,
+          "shortage_penalty_cents": 6600
+        },
+        {
+          "sku": "TEA",
+          "packs": 3,
+          "ordered_units": 60,
+          "stock": 25,
+          "demand": 84,
+          "shortage_units": 0,
+          "leftover_units": 1,
+          "purchase_cents": 15000,
+          "shortage_penalty_cents": 0
+        },
+        {
+          "sku": "FILTERS",
+          "packs": 2,
+          "ordered_units": 100,
+          "stock": 40,
+          "demand": 175,
+          "shortage_units": 35,
+          "leftover_units": 0,
+          "purchase_cents": 6400,
+          "shortage_penalty_cents": 6300
+        },
+        {
+          "sku": "MUGS",
+          "packs": 2,
+          "ordered_units": 12,
+          "stock": 8,
+          "demand": 42,
+          "shortage_units": 22,
+          "leftover_units": 0,
+          "purchase_cents": 8400,
+          "shortage_penalty_cents": 33000
+        },
+        {
+          "sku": "BOTTLES",
+          "packs": 5,
+          "ordered_units": 50,
+          "stock": 12,
+          "demand": 65,
+          "shortage_units": 3,
+          "leftover_units": 0,
+          "purchase_cents": 37500,
+          "shortage_penalty_cents": 5400
+        },
+        {
+          "sku": "SPOONS",
+          "packs": 2,
+          "ordered_units": 48,
+          "stock": 30,
+          "demand": 90,
+          "shortage_units": 12,
+          "leftover_units": 0,
+          "purchase_cents": 5600,
+          "shortage_penalty_cents": 3600
+        },
+        {
+          "sku": "SUGAR",
+          "packs": 3,
+          "ordered_units": 120,
+          "stock": 20,
+          "demand": 140,
+          "shortage_units": 0,
+          "leftover_units": 0,
+          "purchase_cents": 10800,
+          "shortage_penalty_cents": 0
+        },
+        {
+          "sku": "KETTLES",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 3,
+          "demand": 19,
+          "shortage_units": 16,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 88000
+        }
+      ]
+    },
+    "optimal": {
+      "purchase_cents": 119700,
+      "shortage_units": 94,
+      "shortage_penalty_cents": 142900,
+      "fill_rate": 0.8677918424753868,
+      "products": [
+        {
+          "sku": "COFFEE",
+          "packs": 6,
+          "ordered_units": 72,
+          "stock": 18,
+          "demand": 96,
+          "shortage_units": 6,
+          "leftover_units": 0,
+          "purchase_cents": 36000,
+          "shortage_penalty_cents": 6600
+        },
+        {
+          "sku": "TEA",
+          "packs": 3,
+          "ordered_units": 60,
+          "stock": 25,
+          "demand": 84,
+          "shortage_units": 0,
+          "leftover_units": 1,
+          "purchase_cents": 15000,
+          "shortage_penalty_cents": 0
+        },
+        {
+          "sku": "FILTERS",
+          "packs": 2,
+          "ordered_units": 100,
+          "stock": 40,
+          "demand": 175,
+          "shortage_units": 35,
+          "leftover_units": 0,
+          "purchase_cents": 6400,
+          "shortage_penalty_cents": 6300
+        },
+        {
+          "sku": "MUGS",
+          "packs": 2,
+          "ordered_units": 12,
+          "stock": 8,
+          "demand": 42,
+          "shortage_units": 22,
+          "leftover_units": 0,
+          "purchase_cents": 8400,
+          "shortage_penalty_cents": 33000
+        },
+        {
+          "sku": "BOTTLES",
+          "packs": 5,
+          "ordered_units": 50,
+          "stock": 12,
+          "demand": 65,
+          "shortage_units": 3,
+          "leftover_units": 0,
+          "purchase_cents": 37500,
+          "shortage_penalty_cents": 5400
+        },
+        {
+          "sku": "SPOONS",
+          "packs": 2,
+          "ordered_units": 48,
+          "stock": 30,
+          "demand": 90,
+          "shortage_units": 12,
+          "leftover_units": 0,
+          "purchase_cents": 5600,
+          "shortage_penalty_cents": 3600
+        },
+        {
+          "sku": "SUGAR",
+          "packs": 3,
+          "ordered_units": 120,
+          "stock": 20,
+          "demand": 140,
+          "shortage_units": 0,
+          "leftover_units": 0,
+          "purchase_cents": 10800,
+          "shortage_penalty_cents": 0
+        },
+        {
+          "sku": "KETTLES",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 3,
+          "demand": 19,
+          "shortage_units": 16,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 88000
+        }
+      ]
+    }
+  },
+  "fixed_plan_stress_tests": {
+    "low_minus_20pct": {
+      "no_purchase": {
+        "purchase_cents": 0,
+        "shortage_units": 413,
+        "shortage_penalty_cents": 322800,
+        "fill_rate": 0.2741652021089631
+      },
+      "greedy": {
+        "purchase_cents": 119700,
+        "shortage_units": 26,
+        "shortage_penalty_cents": 87000,
+        "fill_rate": 0.9543057996485061
+      },
+      "optimal": {
+        "purchase_cents": 119700,
+        "shortage_units": 26,
+        "shortage_penalty_cents": 87000,
+        "fill_rate": 0.9543057996485061
+      }
+    },
+    "base": {
+      "no_purchase": {
+        "purchase_cents": 0,
+        "shortage_units": 555,
+        "shortage_penalty_cents": 430850,
+        "fill_rate": 0.21940928270042195
+      },
+      "greedy": {
+        "purchase_cents": 119700,
+        "shortage_units": 94,
+        "shortage_penalty_cents": 142900,
+        "fill_rate": 0.8677918424753868
+      },
+      "optimal": {
+        "purchase_cents": 119700,
+        "shortage_units": 94,
+        "shortage_penalty_cents": 142900,
+        "fill_rate": 0.8677918424753868
+      }
+    },
+    "high_plus_20pct": {
+      "no_purchase": {
+        "purchase_cents": 0,
+        "shortage_units": 697,
+        "shortage_penalty_cents": 538900,
+        "fill_rate": 0.182883939038687
+      },
+      "greedy": {
+        "purchase_cents": 119700,
+        "shortage_units": 235,
+        "shortage_penalty_cents": 250300,
+        "fill_rate": 0.7245017584994138
+      },
+      "optimal": {
+        "purchase_cents": 119700,
+        "shortage_units": 235,
+        "shortage_penalty_cents": 250300,
+        "fill_rate": 0.7245017584994138
+      }
+    }
+  },
+  "budget_frontier": [
+    {
+      "budget_cents": 0,
+      "purchase_cents": 0,
+      "shortage_units": 555,
+      "shortage_penalty_cents": 430850,
+      "fill_rate": 0.21940928270042195
+    },
+    {
+      "budget_cents": 30000,
+      "purchase_cents": 30000,
+      "shortage_units": 271,
+      "shortage_penalty_cents": 349650,
+      "fill_rate": 0.6188466947960619
+    },
+    {
+      "budget_cents": 60000,
+      "purchase_cents": 60000,
+      "shortage_units": 231,
+      "shortage_penalty_cents": 277650,
+      "fill_rate": 0.6751054852320675
+    },
+    {
+      "budget_cents": 90000,
+      "purchase_cents": 89700,
+      "shortage_units": 154,
+      "shortage_penalty_cents": 208900,
+      "fill_rate": 0.7834036568213784
+    },
+    {
+      "budget_cents": 120000,
+      "purchase_cents": 119700,
+      "shortage_units": 94,
+      "shortage_penalty_cents": 142900,
+      "fill_rate": 0.8677918424753868
+    },
+    {
+      "budget_cents": 150000,
+      "purchase_cents": 147500,
+      "shortage_units": 37,
+      "shortage_penalty_cents": 87600,
+      "fill_rate": 0.9479606188466948
+    }
+  ]
+}

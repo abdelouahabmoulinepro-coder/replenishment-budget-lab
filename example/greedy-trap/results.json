@@ -1,0 +1,202 @@
+{
+  "input_sha256": "ac2d6aac12155700bd65467bb16a2696971a55d7ffaece2721feb34f6b601abf",
+  "budget_cents": 10000,
+  "plans": {
+    "no_purchase": {
+      "purchase_cents": 0,
+      "shortage_units": 3,
+      "shortage_penalty_cents": 26000,
+      "fill_rate": 0.0,
+      "products": [
+        {
+          "sku": "A",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 0,
+          "demand": 1,
+          "shortage_units": 1,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 10000
+        },
+        {
+          "sku": "B",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 0,
+          "demand": 2,
+          "shortage_units": 2,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 16000
+        }
+      ]
+    },
+    "greedy": {
+      "purchase_cents": 6000,
+      "shortage_units": 2,
+      "shortage_penalty_cents": 16000,
+      "fill_rate": 0.3333333333333333,
+      "products": [
+        {
+          "sku": "A",
+          "packs": 1,
+          "ordered_units": 1,
+          "stock": 0,
+          "demand": 1,
+          "shortage_units": 0,
+          "leftover_units": 0,
+          "purchase_cents": 6000,
+          "shortage_penalty_cents": 0
+        },
+        {
+          "sku": "B",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 0,
+          "demand": 2,
+          "shortage_units": 2,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 16000
+        }
+      ]
+    },
+    "optimal": {
+      "purchase_cents": 10000,
+      "shortage_units": 1,
+      "shortage_penalty_cents": 10000,
+      "fill_rate": 0.6666666666666666,
+      "products": [
+        {
+          "sku": "A",
+          "packs": 0,
+          "ordered_units": 0,
+          "stock": 0,
+          "demand": 1,
+          "shortage_units": 1,
+          "leftover_units": 0,
+          "purchase_cents": 0,
+          "shortage_penalty_cents": 10000
+        },
+        {
+          "sku": "B",
+          "packs": 2,
+          "ordered_units": 2,
+          "stock": 0,
+          "demand": 2,
+          "shortage_units": 0,
+          "leftover_units": 0,
+          "purchase_cents": 10000,
+          "shortage_penalty_cents": 0
+        }
+      ]
+    }
+  },
+  "fixed_plan_stress_tests": {
+    "low_minus_20pct": {
+      "no_purchase": {
+        "purchase_cents": 0,
+        "shortage_units": 3,
+        "shortage_penalty_cents": 26000,
+        "fill_rate": 0.0
+      },
+      "greedy": {
+        "purchase_cents": 6000,
+        "shortage_units": 2,
+        "shortage_penalty_cents": 16000,
+        "fill_rate": 0.3333333333333333
+      },
+      "optimal": {
+        "purchase_cents": 10000,
+        "shortage_units": 1,
+        "shortage_penalty_cents": 10000,
+        "fill_rate": 0.6666666666666666
+      }
+    },
+    "base": {
+      "no_purchase": {
+        "purchase_cents": 0,
+        "shortage_units": 3,
+        "shortage_penalty_cents": 26000,
+        "fill_rate": 0.0
+      },
+      "greedy": {
+        "purchase_cents": 6000,
+        "shortage_units": 2,
+        "shortage_penalty_cents": 16000,
+        "fill_rate": 0.3333333333333333
+      },
+      "optimal": {
+        "purchase_cents": 10000,
+        "shortage_units": 1,
+        "shortage_penalty_cents": 10000,
+        "fill_rate": 0.6666666666666666
+      }
+    },
+    "high_plus_20pct": {
+      "no_purchase": {
+        "purchase_cents": 0,
+        "shortage_units": 3,
+        "shortage_penalty_cents": 26000,
+        "fill_rate": 0.0
+      },
+      "greedy": {
+        "purchase_cents": 6000,
+        "shortage_units": 2,
+        "shortage_penalty_cents": 16000,
+        "fill_rate": 0.3333333333333333
+      },
+      "optimal": {
+        "purchase_cents": 10000,
+        "shortage_units": 1,
+        "shortage_penalty_cents": 10000,
+        "fill_rate": 0.6666666666666666
+      }
+    }
+  },
+  "budget_frontier": [
+    {
+      "budget_cents": 0,
+      "purchase_cents": 0,
+      "shortage_units": 3,
+      "shortage_penalty_cents": 26000,
+      "fill_rate": 0.0
+    },
+    {
+      "budget_cents": 2500,
+      "purchase_cents": 0,
+      "shortage_units": 3,
+      "shortage_penalty_cents": 26000,
+      "fill_rate": 0.0
+    },
+    {
+      "budget_cents": 5000,
+      "purchase_cents": 5000,
+      "shortage_units": 2,
+      "shortage_penalty_cents": 18000,
+      "fill_rate": 0.3333333333333333
+    },
+    {
+      "budget_cents": 7500,
+      "purchase_cents": 6000,
+      "shortage_units": 2,
+      "shortage_penalty_cents": 16000,
+      "fill_rate": 0.3333333333333333
+    },
+    {
+      "budget_cents": 10000,
+      "purchase_cents": 10000,
+      "shortage_units": 1,
+      "shortage_penalty_cents": 10000,
+      "fill_rate": 0.6666666666666666
+    },
+    {
+      "budget_cents": 12500,
+      "purchase_cents": 11000,
+      "shortage_units": 1,
+      "shortage_penalty_cents": 8000,
+      "fill_rate": 0.6666666666666666
+    }
+  ]
+}
